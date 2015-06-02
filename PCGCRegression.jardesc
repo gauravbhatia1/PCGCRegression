@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<jardesc>
+    <jar path="/Users/gauravbhatia/PCGCRegression.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/PCGCRegression/PCGCRegression.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/PCGCRegression/manifest" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/PCGCRegression/manifest"/>
+        <javaElement handleIdentifier="=PCGCRegression/resources"/>
+        <file path="/PCGCRegression/.classpath"/>
+        <file path="/PCGCRegression/.project"/>
+        <javaElement handleIdentifier="=PCGCRegression/src"/>
+    </selectedElements>
+</jardesc>
