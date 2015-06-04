@@ -1,5 +1,5 @@
 # PCGCRegression
-This is a low memory implementation of HE regression / PCGC Regression (Golan et al. 2014 PNAS)
+This is a low memory implementation of HE regression / PCGC Regression (Golan et al. 2014 PNAS). This contains R code for phenotype transformation that is from David Golan.
 
 It has 3 major changes relative to default for the purposes of performance:
 
@@ -9,7 +9,7 @@ It has 3 major changes relative to default for the purposes of performance:
 
 Together, these changes make this method tractable for large (e.g. N=50k) data-sets.
 
-Usage:
+#Usage:
 
 java -jar PCGCRegression.jar parfile
 
@@ -22,3 +22,7 @@ parfile has the following parameters in key=value format:
 - prevalence: Required. The prevalence of the phenotype (e.g. 0.01, or 0.001 for a disease with 1% or 0.1% prevalence, respectively)
 - modcount: Optional. Given n, print an update to the console every n'th pair of GRM values. A reasonable value is 10^6.
 phenos";
+
+#Authors:
+- Gaurav Bhatia
+- David Golan
